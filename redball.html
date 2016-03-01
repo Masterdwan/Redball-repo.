@@ -11,7 +11,7 @@
                 function moveright(){
                     redball.left= redball.left + 10;
                 }
-                function movetop(){
+                function moveup(){
                     redball.top= redball.top - 10;
                 }
                 function movedown(){
@@ -62,29 +62,29 @@
                     moveleft();
                     moveleft();
                     //slide left slide up//
-                    moveleft(); movetop();
-                    moveleft(); movetop();
-                    moveleft(); movetop();
-                    moveleft(); movetop();
-                    moveleft(); movetop();
-                    moveleft(); movetop();
-                    moveleft(); movetop();
+                    moveleft(); moveup();
+                    moveleft(); moveup();
+                    moveleft(); moveup();
+                    moveleft(); moveup();
+                    moveleft(); moveup();
+                    moveleft(); moveup();
+                    moveleft(); moveup();
                     //slide top//
-                    movetop();
-                    movetop();
-                    movetop();
-                    movetop();
-                    movetop();
-                    movetop();
-                    movetop();
+                    moveup();
+                    moveup();
+                    moveup();
+                    moveup();
+                    moveup();
+                    moveup();
+                    moveup();
                     //slide top slide right//
-                    movetop(); moveright();
-                    movetop(); moveright();
-                    movetop(); moveright();
-                    movetop(); moveright();
-                    movetop(); moveright();
-                    movetop(); moveright();
-                    movetop(); moveright();
+                    moveup(); moveright();
+                    moveup(); moveright();
+                    moveup(); moveright();
+                    moveup(); moveright();
+                    moveup(); moveright();
+                    moveup(); moveright();
+                    moveup(); moveright();
                     //slide right//
                     moveright();
                     moveright();
@@ -109,25 +109,25 @@
                 }
                 function movelefttop(){
                     //slide left slide top//
-                    moveleft(); movetop();
-                    moveleft(); movetop();
-                    moveleft(); movetop();
-                    moveleft(); movetop();
-                    moveleft(); movetop();
-                    moveleft(); movetop();
-                    moveleft(); movetop();
+                    moveleft(); moveup();
+                    moveleft(); moveup();
+                    moveleft(); moveup();
+                    moveleft(); moveup();
+                    moveleft(); moveup();
+                    moveleft(); moveup();
+                    moveleft(); moveup();
 
 
                 }
                 function moveupright(){
                     //slide top slide right//
-                    movetop(); moveright();
-                    movetop(); moveright();
-                    movetop(); moveright();
-                    movetop(); moveright();
-                    movetop(); moveright();
-                    movetop(); moveright();
-                    movetop(); moveright();
+                    moveup(); moveright();
+                    moveup(); moveright();
+                    moveup(); moveright();
+                    moveup(); moveright();
+                    moveup(); moveright();
+                    moveup(); moveright();
+                    moveup(); moveright();
                 }
                     
                 //move down right//
@@ -153,13 +153,13 @@
                     moveright();
                     moveright();
                     //slide left slide up//
-                    moveleft(); movetop();
-                    moveleft(); movetop();
-                    moveleft(); movetop();
-                    moveleft(); movetop();
-                    moveleft(); movetop();
-                    moveleft(); movetop();
-                    moveleft(); movetop();
+                    moveleft(); moveup();
+                    moveleft(); moveup();
+                    moveleft(); moveup();
+                    moveleft(); moveup();
+                    moveleft(); moveup();
+                    moveleft(); moveup();
+                    moveleft(); moveup();
                     
                 }
                 function movesquare(){
@@ -188,13 +188,13 @@
                     moveleft();
                     moveleft();
                     //slide top//
-                    movetop();
-                    movetop();
-                    movetop();
-                    movetop();
-                    movetop();
-                    movetop();
-                    movetop();
+                    moveup();
+                    moveup();
+                    moveup();
+                    moveup();
+                    moveup();
+                    moveup();
+                    moveup();
                    
                     
                 }
@@ -204,7 +204,7 @@
             <img id="redball" src="http://lrn.icstars.org/redball.jpg"></img>
         <button onclick="sayhello()">hello worlds</button>
         <button onclick="moveright()">move right</button>
-       <button onclick="movetop()">move top</button>
+       <button onclick="moveup()">move up</button>
        <button onclick="movedown()">move down</button>
        <button onclick="moveleft()">move left</button>
        <button onclick="movesquare()">move square</button>
