@@ -9,17 +9,46 @@
                     alert('Hi There');
                 }
                 function moveright(){
+                    if(redball.left==460){
+                        console.log('Right Hit Wall');
+                    }
+                        else{
+                        
+                
                     redball.left= redball.left + 10;
                 }
+                }
                 function moveup(){
+                    if(redball.top==0){
+                        console.log('Top Hit Wall');
+                    }
+                        else{
+                        
+            
+                            
                     redball.top= redball.top - 10;
+                        }
                 }
+                
                 function movedown(){
-                    redball.top= redball.top+10;
+                    if(redball.top==460){
+                        console.log('Bottom Hit Wall');
+                            }
+                            else{
+                        
+                            
+                       redball.top= redball.top+10;
                 }
+                    }
                  function moveleft(){
+                     if (redball.left== -10) {
+                        console.log('Left Wall Hit');
+                    }
+                    else{
+                     
                     redball.left= redball.left - 10;
                 }
+                    }
                 function octagon(){
                     //slide right//
                     moveright();
@@ -201,7 +230,7 @@
             </script>
         </head>
         <body>
-            <img id="redball" src="http://lrn.icstars.org/redball.jpg"></img>
+            <img id="redball" src="kobe12.gif"></img>
         <button onclick="sayhello()">hello worlds</button>
         <button onclick="moveright()">move right</button>
        <button onclick="moveup()">move up</button>
